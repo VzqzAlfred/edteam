@@ -6,11 +6,60 @@
     <title>Clase 2</title>
 </head>
 <body>
-    <p>Mis platos favoritos: :D</p>
+    <p>Ingredientes de mis platos favoritos: </p>
     <!--Listas Ordenadas "ol"-->
-    <ol>
-        <li></li>
-    </ol>
+    <ul>    <!--"ol" significa orden list que es una lista ordenada-->
+        <li>Enchiladas Suizas   <!--"li" es List item-->
+            <ol>
+                <li>Tortillas</li>
+                <li>Pollo desmenuzado</li>
+            </ol>
+        </li>  
+
+        <li>Pechuga Rellena
+            <ol>
+                <li>Pechuza para empanizar</li>
+                <li>Pan molido.</li>
+            </ol>
+        </li>
+
+
+        <li>Tacos de al pastor
+            <ol>
+                <li>Carne al pastor</li>
+                <li>Piña</li>
+            </ol>
+        </li>
+    </ul>
     
+
+    <p>Capitales Europeas.</p>
+    <!--Listas de definición "df"-->
+    <dl>
+        <dt>Deutschland</dt>    <!--"dt" definition -->
+            <dd>Berlín</dd>     <!--"dd" definition description-->
+
+        <dt>Portugal</dt>
+            <dd>Lisboa</dd>
+
+        <dt>Amsterdam</dt>
+            <dd>Países Bajos</dd>
+    </dl>
+
+
+    <!--Figure es para mostrar contenido que 
+        rompe con el flujo-->
+    <figure>
+        <pre>   <!--pre: hace es que considera los espacion en blanco y llos saltos
+                de linea que se hagan dentro de esta etiqueta -->
+            <code>  <!--code: muestra código-->
+                function hola() {
+                    return "hola"
+                }
+            </code>
+        </pre>
+            <!--Es una descipción de que se ponga en pre-->
+        <figcaption>Ejemplo de función JavaScript</figcaption>
+    </figure>
 </body>
 </html>
