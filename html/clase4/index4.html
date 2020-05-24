@@ -6,7 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagénes</title>
 </head>
-<body>      <!--alt: es para poner un texto-->
-    <img src="../../imagenes/html/spiderman.jpeg" alt="Spiderman">
+<body>      
+    
+    <!--alt: es para poner un texto-->  <!--srcset: mejora el pixel radio de la imagen-->
+    <!--<img src="../../imagenes/html/puente.jpeg" srcset="../../imagenes/html/puente.jpeg 1.5x, ../../imagenes/html/puente.jpeg 2x" alt="" width="100" height="150">
+    <p>
+    <b><a href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a></b>(1879 - 1955) was an German who developed the
+    <a href="https://en.wikipedia.org/wiki/Theory_of_relativity">theory of relativity</a> one of the two pillars of modern physics (alongside quantum mechanics).
+    </p>
+    -->
+
+    <!-- <img 
+    src="../../imagenes/html/escenariort.jpg"
+    srcset="../../imagenes/html/puente.jpg 500w, 
+        ../../imagenes/html/spiderman.jpg 800w">
+    -->
+    
+    <!--picture  Es parecida a img-->
+    <picture>
+        <source src="../../imagenes/html/puente.jpg" media="(min-width: 800px)">
+        <source src="../../imagenes/html/spiderman.jpg" media="(min-width: 500px)">
+    
+        <img src="../../imagenes/html/escenariort.jpg" alt="Foto de superheroe">
+    </picture>
+
+    
+    <!--En ese link podemos encontrar imagenes libre de autor-->
+    <!-- https://www.pexels.com/es-es/buscar/naturaleza/ -->
 </body>
 </html>
