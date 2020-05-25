@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;  /*Junta las celditas*/
+}
+
+
+td{
+    border: 2px double rgb(56, 202, 202) ;
+}
+
+th{
+    background: #444;
+    color: #ffffff;
+}
+
+td, th{
+    text-align: center;
+    padding: 0.5em;
+}

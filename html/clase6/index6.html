@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Clase 6: Tablas.</title>
 </head>
 <body>
 
-<table border="1">
+    
+<table>
+    <caption>HORARIO PERSONAL</caption>
+    <colgroup>  <!--Para poder pintar una columna-->
+        <col span="4">   <!--Pones las columnas que no quieres que hagan algo con un solo SPAN y en la siguiente coloreas-->
+        <col style="background: burlywood;">
+    </colgroup>
 <thead> <!--Los encabezados siempre van encerrados en un thead  y siempre necesitan de un tbody-->
         <tr>    <!--tr: es table row FILA-->
             <th>Lunes</th>   <!--th:  table header -->
@@ -21,12 +28,23 @@
 
 <tbody>
     <tr>
-        <td>HTML</td>       <!--th:   table data: -->
+        <td rowspan="2">HTML</td>       <!--th:   table data: -->
         <td>PHP</td>
-        <td>JavaScript</td>
+        <td rowspan="2">JavaScript</td>
         <td>Python</td>
         <td>CSS</td>
     </tr>
+
+    <tr>
+        <td>GO</td>
+        <td>Big data</td>
+        <td>Machine Learning</td>
+    </tr>
+
+    <tr>
+        <td colspan="5">R E C E S O</td>
+    </tr>
+
     <tr>
         <td>Java</td>       <!--th:   table data: -->
         <td>SQL</td>
@@ -37,11 +55,13 @@
 </tbody> 
 
 <tfoot>     <!--Pâra poder poner conclusiones de la tabla (Puede ser no necesario)-->
+    <tr style="background: burlywood;">
     <td>4.5 Créditos</td>
     <td>3.5 Créditos</td>
     <td>2.5 Créditos</td>
     <td>3 Créditos</td>
     <td>4.5 Créditos</td>
+    </tr>
 </tfoot>
 
 </table>
