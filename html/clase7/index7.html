@@ -6,7 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 7: FORMULARIOS</title>
 </head>
+<h1>Mis datos en mi formulario :D</h1>
 <body>
-    
+    <!--form con action indican que archivo va a procesar-->
+<form>
+    <div>
+             <!--Le da el tìtulo a un campo-->
+        <label>
+            Ingrese su nombre: 
+            <!--Es donde el usuario escribe datos-->
+            <!--TODOS deben tener 'name' es el identificador de este campo,
+                por lo que ese va al backend a la base de datos.-->
+            <input id="username" name="username">
+        </label>
+    </div>
+    <div>
+        <input type="email">
+    </div>
+    <div>
+        <label>
+            Ingrese su contraseña
+            <input type="password" name="password">
+        </label>
+    </div>
+    <input type="submit" value="Log in">
+    <!--Submit, es un botòn para enviar
+        value:  puedes poner ahì lo que diga el botòn-->
+</form>
+
+
+
+<script>
+    document.getElementById('username')
+        .addEventListener('keyup', e => {
+        console.log(e.target.value)
+    }) 
+</script>
+
 </body>
 </html>
