@@ -10,6 +10,7 @@
 <body>
     <!--form con action indican que archivo va a procesar-->
 <form>
+
     <!--
     <div>
             **Le da el tìtulo a un campo**
@@ -23,14 +24,28 @@
     </div>
     -->
 
-    <input name="username" placeholder="Nombre de usuario">
 
-    <div>
-        <label>
-            Ingrese su correo:
-            <input type="email">
-        </label>
-    </div>
+    <!--fieldset: Es para agrupar campos-->
+    <fieldset>
+        <legend>Tus datos Personales.</legend>
+    <input name="username" placeholder="Nombre de usuario">
+        <div>
+            <label>
+                Ingrese su correo:
+                <input type="email">
+            </label>
+        </div>
+        <div>
+            <label>
+                Ingrese la cantidad a comprar
+                <input type="number" value="2" readonly>
+            </label>
+        </div>
+    </fieldset>
+
+<fieldset>
+        <legend>Datos de la plataforma.</legend>
+   
      
     <div>
         <label>
@@ -41,10 +56,59 @@
 
     <div>
         <label>
-            Ingrese su contraseña
-            <input type="password" name="password">
+            Ingrese su contraseña                  <!--campo requerido required-->
+            <input type="password" name="password" required>
         </label>
     </div>
+</fieldset>
+
+
+<fieldset>
+    <legend>Pasatiempos</legend>
+    <label> <input type="checkbox"> <!--checkbox es un cuadro para seleccionar-->
+        Deporte</label>
+    <label> <input type="checkbox">
+        Música</label>
+    <label> <input type="checkbox">
+        Ejercicio</label>
+    <label> <input type="checkbox">
+        Videojuegos</label>
+</fieldset>
+
+<fieldset>
+    <legend>Género</legend>     <!--gender te ayuda a seleccionar solo una-->
+    <label><input type="radio" name="gender">Hombre</label>
+    <label><input type="radio" name="gender">Mujer</label>
+</fieldset>
+
+<fieldset>
+    <legend>Select y options</legend>
+    <label for="country">Elìge tu país.</label>
+    <select name="country" id="country" multiple><!--sELECT ES UNA LISTA DE OPCIONES-->
+        <optgroup label="America">  <!--Sirve para agrupar elementos-->
+            <option value="Venezuela">Venezuela</option>
+            <option value="Argentina">Argentina</option>
+            <option value="México">México</option>
+            <option value="Cánada">Cánada</option>
+            <option value="Brazil">Brazil</option>
+        </optgroup>
+
+        <optgroup label="Europa">  <!--Sirve para agrupar elementos-->
+            <option value="Francia">Francia</option>
+            <option value="España">España</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Italia">Italia</option>
+            <option value="Belgica">Belgica</option>
+        </optgroup>
+
+        <!--para pone un cuadro de mensaje-->
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
+    </select>   
+
+</fieldset>
+
+
+    
     <input type="submit" value="Log in">
     <!--Submit, es un botòn para enviar
         value:  puedes poner ahì lo que diga el botòn-->
