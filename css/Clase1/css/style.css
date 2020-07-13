@@ -1,0 +1,17 @@
+:root{  /*Variables en css*/
+    --color:red;    /*se declaran con doble guion */
+    /*declaracion || nombre de la variable || el valor*/
+}
+
+body{
+    background: var(--color);
+}
+
+h1{
+    left: 320px;
+    top: 300px;
+    border-radius: 15px;
+    position: absolute;
+    background: wheat;
+    color: var(--color);
+}
