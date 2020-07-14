@@ -1,0 +1,152 @@
+
+:root{  /*Para poder hacer variables*/
+    --color-title: green;
+    --color-subtitle: blue;
+}
+
+h1{
+    background: yellowgreen;
+    color: maroon;
+}
+
+p{
+    background: rgb(141, 211, 141);
+    color: wheat;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*Se puede poner emoticones como nombres de clases */
+.😁{
+    text-align: center;
+}
+#😇{
+    background: lightcoral;
+}
+/*id deben usarse más para JavaScript*/
+
+
+/*Selectores compuestos o agrupados*/
+.uno,
+.dos{
+    background: black;
+    color: tomato;
+    font-size: 5em;
+}
+/* --------------------- */
+
+/*Selecitores descendientes*/
+.list span{
+    color: red;
+}
+
+
+/* Hijos directos ---------------*/
+/* Todo ul que sea hijo directo de li desaparecelo*/
+li > ul{
+    display: none;  /*display none hace que no se muestre, con block hace que s emuestre*/
+}
+
+li:hover ul{   /*hover, significa que cuando paso el mouse aparece */
+    display: block;
+}
+/* ----------------------------- */
+
+
+/*SELECTOR HERMANO SIGUIENTE A+B : SELEECIONA EL ELEMENTO DESPUÉS*/
+
+.subtitle{
+    font-size: .5em;
+    padding-top: -5em;
+}
+
+.title1{
+    color: var(--color-title);
+}
+
+.title2{
+    color: var(--color-subtitle);
+}
+
+.title1 + .subtitle{
+    color: var(--color-title)
+}
+
+.title2 + .subtitle{
+    color: var(--color-subtitle);
+}
+/* -------------------------- */
+
+/* HERMANOS SIGUIENTES */
+
+.hermano-mayor ~ .hermano{  /* ~ hace que el elemento siguiente del anterior haga el efecto */
+    background: yellow;
+}
+
+.enable{
+    display: none;
+}
+
+.check:checked ~ .enable{   /* checked es de que lo he marcado */
+    display: block;
+}
+
+.check:checked ~ .disabled{
+    display: none;
+}
+/* -----------------------------------------*/
+
+/* SELECTORES DE ATRIBUTOS      */  
+
+[type="email"]{
+    border: 1px solid blue;
+}
+
+[type="submit"]{
+    background: red;
+    color: white;
+    border: none;
+}
+
+[required]{
+    border: 5px solid red;
+    margin: 2em;
+}
+/* -------------------------------------- */
+
+
+/* Selector comienza con 
+[href^="/"]
+[href^="https://amazon.com"]{
+    color: blue;
+}
+ -----------------------------------*/
+
+ /* SELECTOR DE ATRIBUTO TERMINA CON */
+[href$=".pdf"] {    /*Todos las referencias que terminan en .pdf realizar esos atributos */
+    color: blue;
+    background: url(./pdf.png) no-repeat center right / 2rem;
+    padding-right: 2.2rem;
+}
+/* ---------------------------------*/
+
+/* SELECTOR CONTIENE  [attr*="value"] significa que esta en cualquier lugar */
+
+[class*="button-"] {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white;
+}
+
+.button-cta{
+    background: orange;
+}
+
+.button-alert{
+    background: orangered;
+}
+/*------------------------------------*/
