@@ -1,0 +1,59 @@
+body{
+    font-size: 3em;
+}
+/*      ESpecificidad
+#main .post p { 111
+    color: blue;
+}
+
+p{      1
+    color: green;
+}
+
+div#main .post p{       112
+    color: hotpink;
+}       */
+
+/* ---------------------------------*/
+
+/* CASCADA 
+    Hace caso más al último teniendo la misma especficidad
+p {
+    color: red;
+}
+
+p {
+    color: greenyellow !important;  /* es para tomarle más importancia  
+}
+Si tuvieran la misma especificidad toma entonces la cascada sin importanr que tuviera !important 
+------------------------------------- */
+
+
+/* HERENCIA: Los descendientes heredan propiedades de sus padres
+    Initial: Resetea un elemento a su valor inicial
+    inherit: Obliga a que un elemento herede una propiedad */
+    
+h1{
+    color: indigo;
+}
+
+span{
+    font-size: initial;
+}
+
+p{
+    color: green;
+}
+
+a{
+    color: inherit; /*Que herede el mismo color*/
+}
+
+
+ul{
+    color: red;
+}
+
+ul span {
+    font-size: inherit; /*Span hereda el tamaño de la ul de la lista*/
+}

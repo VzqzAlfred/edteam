@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 3: Especificidad, herencia y cascada</title>
+</head>
+<body>
+    <!-- ESPECIFICIDAD: Es a nivel de selectores 
+        etiquetas de selector =1
+        id = 100
+        class= 10
+        -->
+    <div id="main" class="main">
+        <article class="post">
+            <p class="description">Hola</p>
+        </article>
+    </div>
+
+    <!-- CASCADA: Lo que viene después sobreescribe a lo que está antes-->
+
+
+    <!--Herencia: Los descendientes heredan propiedades de sus padres -->
+    <h1>Hola <span>Mundo</span></h1>
+    
+    
+    <p>Hola amigos
+        <a href="#">Visit my page side</a>
+    </p>
+
+    <ul>
+        <li>España</li>
+        <li>Portugal</li>
+        <li>Germany</li>
+        <li>Norway <span>Russian</span></li>
+    </ul>
+
+</body>
+</html>
