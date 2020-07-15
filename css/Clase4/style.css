@@ -54,6 +54,49 @@ p{
 /*   margin: 100px;   
 }   */
 
-* {
-    box-sizing: border-box;
+* {     /*Es recomendable hacer esto siempre al iniciar una hoja de estilos*/
+    box-sizing: border-box; 
 }
+
+/* ----------------------------------------------*/
+
+
+
+/* Colapsado de margenes verticales Y padding
+.article-0{
+    border: 1px solid black;
+    background: pink;
+}      
+.title{
+    margin-top: 0;
+}       */
+
+[class^="article"]{
+    background: yellowgreen; 
+    padding: 80px;
+    width: 500px;
+    margin-left: auto;      /*los auto en los dos es centrar*/
+    margin-right: auto;
+}
+
+.article-1{
+    margin-bottom: 100px  ;
+}
+
+.article-2{
+    margin-top: 100px;  /*Si son iguales no hace nada solo hace un entre de 100
+                        Si uno es mayor el entre espaciado mayor gana*/
+}       
+
+.video{
+    margin-top: 100px;
+    background: yellowgreen;
+    padding-bottom: 56.25%; 
+}
+
+
+
+
+
+
+
