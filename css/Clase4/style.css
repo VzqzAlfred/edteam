@@ -28,5 +28,5 @@ p{
      margin: 80px;
 
      /*BOX SIZING: Tamaño de la caja*/
-     box-sizing: border-box;
+     box-sizing: border-box; /*Nos da el tamaño que declaramos*/
 }
