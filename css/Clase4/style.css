@@ -84,14 +84,21 @@ p{
 }
 
 .article-2{
-    margin-top: 100px;  /*Si son iguales no hace nada solo hace un entre de 100
+    margin-top: 50px;  /*Si son iguales no hace nada solo hace un entre de 100
                         Si uno es mayor el entre espaciado mayor gana*/
 }       
 
 .video{
+
     margin-top: 100px;
     background: yellowgreen;
     padding-bottom: 56.25%; 
+}
+
+.container{
+    width: 90%;
+    background: darkolivegreen;
+    
 }
 
 
