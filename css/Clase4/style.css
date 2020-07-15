@@ -30,3 +30,30 @@ p{
      /*BOX SIZING: Tamaño de la caja*/
      box-sizing: border-box; /*Nos da el tamaño que declaramos*/
 }
+
+/*PROPIEDADES DE MARGIN: margin-top, margin-bottom, margin-left, margin-right*/
+/*shorthand margin: es una propiedad que agrupa a varias*/
+
+[class^=box-]{
+    background: yellow;
+    padding: 50px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+/*  .box-1{ */
+  /*margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-left: 30px;  */
+
+   /* margin: 50px 100px 200px 30px;  Empieza desde arriba y va en sentido de las manecillas del reloj*/
+    /*Es lo mismo que, si fueran los lados y arriba y abajo igual*/
+   /* margin: 50px 100px;   */
+   /*O aplicarse a los 4 valores igual*/
+/*   margin: 100px;   
+}   */
+
+* {
+    box-sizing: border-box;
+}
