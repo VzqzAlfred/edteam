@@ -15,3 +15,18 @@ p{
     display: inline;
     background: hotpink;
 }
+
+.box{
+     background: red;
+     background-clip: content-box;
+     
+     /*BOX MODEL*/
+     width: 500px;
+     height: 300px;
+     padding: 50px;
+     border: 15px solid gold;
+     margin: 80px;
+
+     /*BOX SIZING: Tamaño de la caja*/
+     box-sizing: border-box;
+}
