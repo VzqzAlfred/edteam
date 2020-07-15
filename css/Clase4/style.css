@@ -1,0 +1,17 @@
+
+h1{
+    background: green;
+    display: inline;    /*Inline permite que las etiquetas que son de bloque se pongan seguidas de otro*/
+}
+
+span{
+    background: greenyellow;
+    /*display: block;*/     /*bloc  permite crear su propio bloque (espacio)*/
+    display: inline-block;  /*inline block se acomoda en la linea pero permite tener anchuras*/
+    height: 50px;
+}
+
+p{
+    display: inline;
+    background: hotpink;
+}
