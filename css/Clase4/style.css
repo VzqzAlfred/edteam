@@ -98,8 +98,13 @@ p{
 .container{
     width: 90%;
     background: darkolivegreen;
-    
+
 }
+
+/*
+body{               vw: viewport-with
+    height: 100vh;  vh es viewport-height que llena la pantalla todo en altura
+}*/
 
 
 
