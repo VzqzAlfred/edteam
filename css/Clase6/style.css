@@ -1,0 +1,49 @@
+
+
+/*backgrpound-clip: Es que parte de la caja es cubierta por el fondo*/
+/*background-origin: es desde que caja empieza a dibujar el fondo*/
+
+.cajita{
+    width: 500px;
+    height: 300px;
+    background-image: url(../Clase6/finlandia.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 30px -10px #000;
+    margin: 100px auto;
+    background-size: 100% 100%; 
+}
+
+.caja-2{
+    width: 500px;
+    height: 300px;
+    background-image: url(noruega.jpg);
+    background-repeat: no-repeat;
+    background-color: teal;
+    margin: 100px auto;
+    background-size: 75%;
+    background-position: bottom 20px right 20px;
+}
+
+body{
+    padding-bottom: 150em;
+}
+
+
+p{
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 2em;
+}
+
+.palax{
+    padding: 7em 0;
+    background-attachment: fixed;   /* attachment: fixed    hace que la imagen permanezca*/
+    background-image: url(../Clase6/suecia.jpg);
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    color: thistle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
