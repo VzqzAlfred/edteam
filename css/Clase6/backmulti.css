@@ -1,0 +1,20 @@
+body{
+   /* background-image: url(../Clase6/ipn.png),
+    url(../Clase6/escum.png),
+    url(../Clase6/helsinki.jpg);
+    
+    background-size: 25%, 25%, contain;
+    height: 100vh;
+    background-position: right 20px, left 420px, center;
+    background-repeat: no-repeat;
+    background-color: teal; */
+
+    /* SHORTHAND BACKGROUND
+        background: image position / size repeat attachment origin clip*/
+    
+    background: url(../Clase6/ipn.png) 20px 30px / 18%,
+    url(../Clase6/escum.png) bottom 30px right 20px / 15%,
+    url(../Clase6/helsinki.jpg) center / 80%, teal;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
