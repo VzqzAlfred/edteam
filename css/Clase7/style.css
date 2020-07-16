@@ -1,0 +1,94 @@
+/* em es el tamaño de fuente de contexto
+   rem: es el tamaño de fuente de roo   */
+
+h1{
+    font-size: 5rem;
+}
+
+span{
+    font-size: 2em;
+    color: indigo;
+}
+
+.p{
+    margin: 2em;
+    font-size: 3em;
+    direction: rtl;  /*right to left*/
+  /*  text-indent: 2em;   Da una sangría a la primera linea */
+    text-align: left;
+}
+
+.parrafo-2{
+    margin: 1em;
+    line-height: 1.8;   /*line-height: es la altura entre lineas (recomendable solo para una linea) */
+    letter-spacing: 0.2em;    /*Espacio entre letras*/
+}
+
+.box{
+    font-size: 1.8em;
+    width: 150px;
+    height: 100px;
+    background:salmon;
+    text-align: center;
+    line-height: 100px  /*Este ayuda que se vea centrado*/
+        /*Tienen que tener el mismo height*/
+    
+}
+
+i{
+    font-size: 0.3em;
+    vertical-align: middle;     /*vertical: ayuda a la orientación*/
+    
+}
+
+a{
+    /*text-decoration-line: line-through;
+    text-decoration-color: crimson;
+    text-decoration-style: wavy;*/
+    text-decoration: overline underline wavy red;
+                    /*o unicamente uno*/
+    letter-spacing: 0.35em;
+}
+
+h2{
+    text-decoration-color: ;
+    text-align: center;
+    /*h-offset || v-offset || blur || color*/
+    text-shadow: 0.5em 0.6em 0.05em red,
+                 1em 1.2em 0.025em yellow;
+}
+
+/*Uso de svg para borde*/
+text{
+    stroke: red;
+    stroke-width: 0.5px;
+}
+
+
+/*white space*/
+.parrafito1{
+    font-size: 2.5em;
+    white-space: pre;
+    width: 125px;
+    margin: 2px auto;
+    border: 1px solid black;
+    overflow: hidden;   /*Esconde lo que se sale de la caja*/
+    text-overflow: ellipsis;    /*ponte con .. puntitos las palabras */
+}
+
+/*Texto vertical*/
+.vertical{
+    writing-mode: vertical-lr;  /*pone el texto en vertical*/
+    text-orientation: upright;  /*Pone las letras hacia arriba*/
+    text-rendering: optimizeLegibility
+}
+
+/*text-transform:  uppercase: texto en mayusculas
+                   lowercase: texto en minusculas 
+                   capitalize: cada palabra del texto inicie en mayusculas*/
+
+.transform{
+    text-transform: uppercase;
+}
+
+ 
