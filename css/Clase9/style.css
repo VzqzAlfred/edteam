@@ -1,0 +1,168 @@
+/*  PSEUDOCLASES:   Son estilos especiales
+
+:root
+:hover
+:active
+:target
+:nth-child  :first-child    :last-child
+:nth-of-type    :nth-first-of-type     :nth-last-of-type
+:not
+:empty
+
+*/
+/* :rooot hace referencia al nodo principal del documento   */
+
+:root{ 
+    --first-color: #3498DB;
+    --second-color: #1ABC9C;
+    --thrid-color: #F4D03F;
+    --four-color: #E74C3C;
+    --five-color: #8E44AD;
+    --six-color:  #DC7633;
+    --seven-color: #D5D8DC;
+    --eight-color: #A9DFBF;
+    --nine-color:   #922B21 ;
+    --ten-color:    #1E8449;
+    --eleven-color: #6057E9;
+    --twelve-color: #D83689;
+    --thirteen-color-rgba: rgba(255,60,50,0.5);
+    --fourteen-color: #34495E;
+    --font-main: sans-serif;
+    --font-size: 16px;
+    --line-height: 1.6;
+    --header-height:8rem;
+    --mark-width:1200px;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    background-color: var(--seven-color);
+    color: var(--nine-color);
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: var(--eleven-color);
+    transition: var(--ten-color) .3s ease-in;
+}
+
+a:hover {
+    color: var(--first-color);
+}
+
+li{
+    margin-left: 2rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+.Header{
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: var(--header-height);
+    text-align: center;
+    background-color: var(--first-color);
+    color: var(--seven-color);
+    font-size: 1.25rem;
+}
+
+.Main{
+    margin: 0 auto;
+    padding: calc(var(--header-height)+10rem) 10rem 0;
+    max-width: var(--mark-width);
+}
+
+.Main article{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--fourteen-color);
+    color: var(--thrid-color);
+    transition: all 1s ease-out;    /*Da el tiempo en el que aparezca el cambio del hover*/
+}
+
+/*Por reglas de cascada siempre va primero hover y después active para que se aplique*/
+.Main article:hover{
+    background-color: var(--thrid-color);
+    color:  var(--fourteen-color);
+}
+
+.Main article:active{
+    background-color: var(--first-color);
+    color:  var(--fourteen-color);
+}
+
+/* -----------------------*/
+
+
+                    /* 3n es de que cada 3 elementos */
+                    /*odd para los par*/
+                    /*even para impar*/
+.Main article:nth-child(3){ /*Al tercer elemento article cambia de color*/
+    background-color: var(--six-color);
+}
+/*Para que respete el efecto de los demas*/
+.Main article:nth-child(3):hover{
+    background-color: var(--thrid-color);
+    color:  var(--fourteen-color);
+}
+
+.Main article:nth-child(3):active{
+    background-color: var(--first-color);
+    color:  fuchsia;
+}
+/*-----------------*/
+
+.Main article:first-child {
+    font-size: 1.25rem;
+}
+
+.Main article:last-child {
+    font-size: .8rem;
+}
+
+
+
+
+
+
+.Main h2{
+    color: var(--four-color);
+}
+
+.Modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--thirteen-color-rgba);   /*Ayuda a dar una opacidad el fondo*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.Modal:target{
+    display: flex;
+}
+
+.Modal-box{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--thrid-color);
+    
+}

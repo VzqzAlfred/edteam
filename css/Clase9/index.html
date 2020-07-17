@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 9: Pseudoclases</title>
+</head>
+<body>
+    <header class="Header">
+    <h1>Pseudoclases</h1>
+    <p>
+        Estilos especiales dependiendo del contexto, posiciòn o estado.
+    </p>
+    </header>
+    <main class="Main">
+        <article>
+            <h2><code>:root</code></h2>
+            <p>Sirve para declarar variables CSS</p>
+        </article>
+        <br>
+        <article>
+            <h2><code>:hover</code></h2>
+            <p>Se presenta cuando el usuario coloca el puntero sobre algun elemento, 
+                pero no necesariamente está activo
+            </p>
+        </article>
+
+        <article>
+            <h2><code>:active</code></h2>
+            <p> Cubre el caso en que un elemento esta siendo activado por el usuario. 
+                Se usa más en &lt;a&gt;y&lt;button&gt; de HTML</p>
+            <p>El orden si importa porque va en cascada</p>
+            <ol>
+                <li>:link{...}</li>
+                <li>:visited{...}</li>    
+                <li>:hover{...}</li>
+                <li>:active{...}</li>
+            </ol>
+        </article>
+
+        <article>
+            <h2><code>:target</code></h2>
+            <p>Permite tener interacción sin JavaScript. si existe alguno, con un id coincidente
+                con el identificador de fragmentos de la URl del documento.
+            </p><a href="#modal">Modal del CSS</a>
+        </article>
+
+        <div id="modal" class="Modal">
+            <aside class="Modal-box">
+                <h2>hOLA, SOY UN BONITO MODAL EN CSS</h2>
+                <a href="#">Cerrar  </a>
+            </aside>
+        </div>
+
+        <article>
+            <h2><code>:nth-child :first-child :last-child</code></h2>
+            <ul>
+                <li>
+                    <code>nth-child</code>: Selecciona el elemento indicado que sea el enésimo
+                    hijo de su elemento padre.
+                </li>
+                <li>
+                    <code>first-child</code>: Selecciona el elemento indicado que sea el primer hijo de su 
+                    elemento padre.
+                </li>
+                <li>
+                    <code>last-child</code>: Selec  ciona el elemento indicado que sea el ultimo hijo de 
+                    su elemento padre
+                </li>
+            </ul>
+        </article>
+
+
+    
+    
+    </main>
+
+
+    
+</body>
+</html>
