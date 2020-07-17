@@ -1,0 +1,37 @@
+
+/*Porpiedades de font- */
+/* https://fonts.adobe.com/fonts/tangerine#fonts-section    
+    Para ver las tipo grafías               */
+
+/* google fonts     */
+
+.family{
+    font-size: 5em;
+    font-family: 'Times New Roman', Georgia, serif;
+    font-variant: small-caps;   /*Da que la primera letra sea grande y las demas más pequeñas del mismo tamaño en mayuscula*/
+}
+
+article{
+    font-size: 8rem;
+    font-weight: 100;
+}
+
+span{
+    font-size: 1rem;
+}
+
+/* shorhand:
+    font:                      Los demás son opcionales, pero line va con su barra 
+        font-family font-size /line-height  */
+.short{
+    font: 5em Arial / 1.5;   
+}
+
+
+/*@font-face:   Permite usar cuañquier fuente*/
+
+.fuente-ext{
+    font-family: Tangerine;
+    font-size: 5em;
+}
+
