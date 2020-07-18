@@ -5,12 +5,12 @@
 :active
 :target
 :nth-child  :first-child    :last-child
-:nth-of-type    :nth-first-of-type     :nth-last-of-type
+:nth-of-type    :nth-first-of-type     nth:last-of-type
 :not
 :empty
 
-*/
-/* :rooot hace referencia al nodo principal del documento   */
+
+ :rooot hace referencia al nodo principal del documento   */
 
 :root{ 
     --first-color: #3498DB;
@@ -106,8 +106,8 @@ p{
 
 
                     /* 3n es de que cada 3 elementos */
-                    /*odd para los par*/
-                    /*even para impar*/
+                    /*odd para los impar*/
+                    /*even para par*/
 .Main article:nth-child(3){ /*Al tercer elemento article cambia de color*/
     background-color: var(--six-color);
 }
@@ -130,11 +130,6 @@ p{
 .Main article:last-child {
     font-size: .8rem;
 }
-
-
-
-
-
 
 .Main h2{
     color: var(--four-color);
@@ -164,5 +159,38 @@ p{
     justify-content: center;
     align-items: center;
     background-color: var(--thrid-color);
-    
+}
+
+.Modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Modal input:not([type="submit"]) {   /*Hace estilos en todos menos en el boton de enviar*/
+    margin-bottom: .5rem;
+    padding: 0.5rem;
+    border: thin solid var(--five-color);
+    background-color: var(--six-color);
+    color: var(--ten-color);
+}
+
+.Modal input[type="submit"] {
+     width: 50%;
+     margin: 0 auto .5rem;
+     padding: 0.5rem 0.25rem;
+     border: 0;
+     border-radius: 0.25rem;
+     background-color: var(--eleven-color);
+     color: var(--seven-color);
+     transition: all .3s ease-in;
+    }
+
+
+.Modal input[type="submit"]:hover{
+    background-color: var(--eleven-color);
+}
+
+p:empty{
+    margin-bottom: 0;
+    display: none;
 }

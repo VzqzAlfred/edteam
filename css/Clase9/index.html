@@ -49,8 +49,13 @@
         <div id="modal" class="Modal">
             <aside class="Modal-box">
                 <h2>hOLA, SOY UN BONITO MODAL EN CSS</h2>
-                <a href="#">Cerrar  </a>
-            </aside>
+                <form>
+                    <input type="email" placeholder="e-mail">
+                    <input type="password" placeholder="password">
+                    <input type="submit"> 
+                </form>
+                <a href="#">Cerrar</a>
+            </aside> 
         </div>
 
         <article>
@@ -71,9 +76,49 @@
             </ul>
         </article>
 
+    <article>
+        <h2><code>:nth-of-type  :first-of-type  :last-of-type</code></h2>
+        <ul>
+            <li>
+                <code>:nth-of-type</code>: Selecciona el elemento marcado que sea el enésimo hijo en su tipo sin 
+                importar la jerarquía dentro del elemento padre. 
+            </li>
+            <li>
+                <code>first-of-type</code>: Selecciona el elemento indicado que sea el primer hijo en su 
+                tipo sin importar la jerarquía dentro del elemento padre.
+            </li>
+            <li>
+                <code>last-of-type</code> Selecciona el elemento indicado que sea el último hijo en su 
+                tipo sin importar la jerarquía dentro del elemento padre.
+            </li>
+        </ul>
+        <p></p>
+        <p>
+            <a href="https://css-tricks.com/examples/nth-child-tester/" target="_blank">Ejejmplo interactivo</a>
+        </p>
+    </article>
 
-    
-    
+    <article>
+        <h2><code>:not</code></h2>
+        <p>
+            Es una notación funcional que toma un selector simple X como argumento.
+            Coincide con un elemento que no está representado por el argumento. X no debe contener
+            otro selector de negación. 
+        </p>
+    </article>
+
+    <article>
+        <h2><code>:empty</code></h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>
+            Corresponde a un elemento sin ningun nodo hijo. Sólo cuando hay nodos de elemento o texto con uno
+            o más caracteres dentro del elemento ése se convierte en vacío. 
+        </p>
+    </article>
     </main>
 
 
