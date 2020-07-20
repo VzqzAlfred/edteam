@@ -1,0 +1,70 @@
+ul, .list{
+    /*list-style-image: url();  Sirve para poner imagenes */
+    list-style-type: lower-greek;  /* Para poner tipos de imagen para la lista*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-position: inside;
+}
+
+
+
+/*  ------------------------ Contadores  --------------------------  */
+.chapters{
+                /*Nombre del la variable contador*/
+    counter-reset: chapters;
+}
+
+.chapter{   /*Indicas que incremente en chapter*/
+    counter-increment: chapter;
+}
+
+.chapter::before{
+        /*Counter y nombre del contador. Las '' es un string*/
+    content: counter(chapter) '.';
+    color: red;
+    margin-right: 0.25rem;
+}
+
+.list-2{
+    counter-reset: numer;
+}
+
+li{
+    counter-increment: numer;
+    list-style: none;
+}
+
+li::before{
+            /*counter porque son varios*/
+    content: counters(numer, '-') '.';
+    color: blueviolet;
+    margin-right: 0.75rem;
+    font-family: Tangerine,sans-serif;
+    font-size: 0.6rem;
+}
+
+
+.temary{
+    counter-reset: classes;
+}
+.class{
+    counter-increment: classes;
+    counter-reset: topics;
+}
+
+.class-title::before{
+    content: counter(classes) '.';
+    margin-right: 0.5em;
+}
+
+.class-top{
+    counter-increment: topics;
+    padding-left: 2em;
+}
+
+.class-top::before{
+    content: counter(classes) '-' counters(topics, '-') '.';
+    color: crimson;
+    margin-right: 0.3em;
+}
+
