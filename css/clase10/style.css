@@ -1,0 +1,157 @@
+:root{
+    box-sizing: border-box;
+}
+
+header{
+    font-family: tangerine, sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 0.1em;
+    color: seagreen;
+    text-shadow: 4px 3px 3px slateblue;
+}
+
+/*:: first-line   |   ::first-terrer
+            Solo funciona para elementos de bloque 
+            selecciona la primera letra o la primera linea*/
+.p::first-line{
+    color: red;
+}
+
+
+.letter:last-of-type::first-letter{
+    color: red;
+    font-size: 2.3em ;
+    float: left;
+    line-height: 1; /*Para que la L, suba alineado hasta arriba del parrafo*/
+    margin-right: 0.1em;
+    font-family: serif;
+}
+
+/*  ::before    |   ::after 
+
+    Contenido generado
+    inline por defecto
+
+    */
+h1{
+    border: 1px solid black;
+}
+    .h1::before{
+        content: 'Hola amigos ¿';   /*Debe tener un block porque sino trabaja en una sola linea 'inline' porque sino no hace nada*/
+        display: block;
+        background: hsl(60, 100%, 50%, .3);
+        font-size: 1rem;
+    }
+
+    .h1::after{
+        content: '? para que o qué';
+    }
+
+    h2{                /*\201D*/
+        quotes: '\201C' '"';
+    }
+
+    h2::before{
+        content: open-quote;
+    }
+
+    h2::after{
+        content: close-quote;
+    }
+
+    .usd::before{
+        content: "$ ";
+    }
+    .pen::before{
+        content: "S/ ";
+    }
+
+    .cop::before{
+        content: "$ ";
+    }
+
+    .two-decimals::after{
+        content: ".00";
+    }
+
+    /*Subrayado animado*/
+
+    h3{
+        display: table;
+        
+        font-size: 2em;
+    }
+
+    h3::after{
+        content: '';
+        display: block;
+        height: 3px;
+        background: red;
+        transform: scale(0,1);
+        transition: transform 0.3s;
+    }
+
+    h3:hover::after{
+        transform: scale(1,1);
+    }
+    /*--------------------------*/
+
+/* Aspect radio */
+
+.box{
+    width: 700px;
+    background: rebeccapurple;
+}
+
+.box::before{
+    content: '';
+    display: block;     /*Dimensiones para la forma de un video*/
+    padding-bottom: 56.25%; /*o 100% para ser cuadradito*/
+}
+
+/*Corazón*/
+
+body{
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.heart, 
+.heart::before,
+.heart::after{
+    width: var(--size);
+    height: var(--size);
+    background: var(--color);
+}
+
+.heart{
+    position: absolute;
+    left: 50%;
+    top: 1400px;
+    --size: 200px;
+    --color: red;
+    transform: rotate(45deg);
+    animation: beat .5s infinite alternate ease-in-out;
+}
+
+@keyframes beat{
+    to{
+        transform: rotate(45deg) scale(1.05);
+    }
+}
+
+.heart::before,
+.heart::after{
+    content: '';
+    display: block;
+    margin-top: calc(var(--size) * -0.5);
+    border-radius: 50%;
+}
+
+
+.heart::after{
+    margin-left: calc(var(--size) * -0.5);
+}
