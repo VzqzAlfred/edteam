@@ -1,0 +1,107 @@
+/*red:green:blue    rgb
+los 3 en 0 es negro
+los 3 en 255 es blanco
+si ambos son iguales, da un gris
+rgba, el uñtimo es opacidad va de 0.0 a 1
+
+#RRGGBB es lo mismo que #RGB
+
+
+
+HSL=    Hue(Tonalidad de color, de 0 a 360)
+        Saturacion(Intensidad del color, de gris 0% al color puro 100%)
+        Luminosidad(negro 0%, puro 50%, blanco 50%)
+        
+        HSL(numero, porcentaje, porcentaje)
+        HLSA(numero, porcentaje, porcentaje, transparencia)
+                                            transparencia va de 0 a 1*/
+ 
+
+.colors{
+    min-height: 100vh;
+    background-image: linear-gradient(
+        hsl(0,100%,50%),
+        hsl(30,100%,50%),  
+        hsl(60,100%,50%),
+        hsl(90,100%,50%),
+        hsl(120,100%,50%),
+        hsl(150,100%,50%),
+        hsl(180,100%,50%),
+        hsl(210,100%,50%),
+        hsl(240,100%,50%),
+        hsl(270,100%,50%),
+        hsl(330,100%,50%),
+        hsl(360,100%,50%)
+        );
+}
+    
+
+    /*linear-gradient([angle], color1 [Stop], color2[Stop], color3[Stop])
+                    to right
+                    to left 
+                    to top left a 45grados
+                    to top right
+                    to bottom left
+                    to bottom right
+                    + -10deg       deg son grados*/
+.linear{
+    /*Para verse tiene que tener altura*/
+    min-height: 90vh;
+    /*background-image: linear-gradient(yellow, red);*/
+    /*background-image: linear-gradient(red 25%, blue, lime);*/
+    /*background-image: lenear-gradient(45deg, blue 10px, pink 15%, red);*/
+    background-image: linear-gradient(to top right, red , yellow, lime);
+    margin-top: 5em;
+}
+
+.radial{
+/*background-image: radial-gradient(shape size at position, start-color, ..., last-color)
+                                            */
+    min-height: 90vh;
+    margin-top: 5em;
+    background-image: radial-gradient(at 0 50%, yellow, red, cyan, purple);
+  /*  background-image: radial-gradient(circle, red,cyan, purple);*/
+  /* background-image: radial-gradient(closest-side, yellow 100%, red 100%); */ 
+    background-repeat: no-repeat;
+}
+
+
+/*Los bordes que van sobre montados, tienen que ir primero*/
+.repeat{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 150px;
+    border-radius: 50%;
+    top: 50px;       
+                                      /*El segundo debe ser mayor*/
+    background: radial-gradient(closest-side circle at 50% 50%, black 40%, transparent 60%), 
+    repeating-radial-gradient( yellow 15%, red 25%);
+    
+   
+}
+
+.looney{
+    width: 800px;
+    height: 500px;
+    margin: 2em auto;
+    background-color: orangered;
+
+}
+
+.yang{
+    width: 600px;
+    height: 600px;
+    margin: 3em auto; 
+    border-radius: 50%; 
+    box-shadow: 0 0 0 2px;;         
+    background: radial-gradient(closest-side circle at 50% 25%, black 20%, transparent 20%),
+    radial-gradient(closest-side circle at 50% 25%, white 100%, transparent 50%),
+    radial-gradient(closest-side circle at 50% 75%, white 20%, transparent 20%),
+    radial-gradient(closest-side circle at 50% 75%, black 100%, transparent 50%),
+    linear-gradient(to right, white 50%, black 50%)
+
+}
+
+
+   
