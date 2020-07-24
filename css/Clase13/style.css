@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Existen 3 tipos de posicionamiento:
+    - static:
+    - relative:
+    - absolute:
+    - fixed:
+    - sticky:
+
+    Propiedades offset
+        Mueven un elemento posicionado segun el borde indicado
+        - top
+        - right
+        - left
+        - bottom    */
+
+/*
+    position relative:
+        * Su referencia es su posicion inicial 
+        * Aplicar position: relative a un elemento no modifica en nada
+            su layout
+        * Al moverlo, con las propiedades offset reserva su espacio.
+
+    position: absolute
+        * Pierde su posiciòn en el flujo y no reserva su espacio.
+        * Si tenia dimensiones fijas se mantienen si tenia dimensiones automaticas,
+        se ajustaràn a su contenido.
+        * Su referencia es su ancestro posicionamiento más cercano.
+
+
+*/
+
+h1{
+   /* position: relative;*/
+    top: 20px;
+    border: 1px solid black;
+}
+.p1{
+    color: orangered;
+    text-align: justify;
+}
+
+.p2{
+    color: orchid;
+    text-align: justify;
+}
+
+.p3{
+    color: peru;
+}
+
+.box{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;      /*Para que ajustara la A en medio, centrandolo*/
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+/* ------ Menú despegable ----- */
+
+
+.main{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex; /*Para que se pongan lineal*/
+    background: #333;
+}
+
+.submain{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.submain .submain{
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.main-item{
+    position: relative;
+}
+
+.main-item:hover > .submain{    /*Para que aparezcas cada que se pase el cursor*/
+    display: block;
+}
+
+.main-item:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main-link{
+    text-decoration: none;
+    color: #ddd;
+    display: block;
+    padding: 0.5em 1em;
+}
+
+/*  ----------    Card    ----------*/
+.card{
+    margin: 0 auto;
+    top: 3em;
+    width: 600px;
+    position: relative;
+}
+.batman{
+    width: 100%;
+    display: block;
+
+}
+
+.card-title{
+    position: absolute;
+    bottom: 0;      /*Junto con la position abs el texto se sube a la imagen */
+    background: rgba(0, 0, 0, 0.75);    /*La opacidad que cubrira el texto*/
+    color: #fff;
+    width: 100%;    /*Para que cubra desde la izq a derecha el fondo*/
+    margin: 0;      /*Para que el margen pegue hasta abajo*/
+    text-align: center;
+    padding: .65em;
+    font-size: 1.15em;
+}
