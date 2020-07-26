@@ -28,7 +28,7 @@
 
 .son:first-child{
     background: hsl(300, 100%, 50%);
-    z-index: var(--z-back);
+    z-index: var(--z-back);     /*Atras 10 veces*/
 }
 
 .son:nth-child(2){
