@@ -1,0 +1,12 @@
+:root{
+    --color: #f00;
+}
+body{
+    font-size: 2em;
+}
+
+h2{
+    position: sticky;   /*Hace el efecto de poner algo fijo mientras haces scroll siempre y cuando le des un margin de en dond elo quieres colocar*/
+    top: 10px;
+    background: #fff;
+}
