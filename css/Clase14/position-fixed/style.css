@@ -1,0 +1,44 @@
+/*
+    position: static
+        relative  ||  absolute  ||  fixed  || sticky
+
+    offset properties:
+        top  ||  right  ||  left  ||  bottom
+
+    Un elemento posicionado tiene una referencia (contexto)
+
+    relative: Su referencia es su pisición inicial 
+    absolute: Su referencia es su ancestro posicionado más cercano.
+    fixed: fijo (no se mueven con el scroll), relativo al viewport 
+           Se ignora en el flujo
+           sus dimensiones automaticas se restringen a su contenido 
+    fixed lo que hace es que se mueve el encabezado y esta fijo    
+    
+           */
+
+    body{
+    font-size: 2em;
+    }
+
+    .main-header{
+        background: aquamarine;
+        position: fixed;
+        width: 100%; 
+        top: 0;
+        height: 5rem;
+    }
+    .logo{
+        height: 2em;
+        display: block;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+
+    :target{
+        padding-top: 5rem;
+    }
+
+    main{
+        padding-top: 0;
+    }
