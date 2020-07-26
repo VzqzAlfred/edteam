@@ -1,0 +1,46 @@
+:root{
+    --z-back        : -10;
+    --z-normal      : 1;
+    --z-tooltrip    : 10;
+    --z-fixed       : 100;
+    --z-modal       : 1000;
+}
+
+.dad{
+    width: 500px;
+    height: 500px;
+    background: hsla(60, 100%, 50%, .5);
+    position: relative;
+    z-index: var(--z-normal);
+   /* overflow: hidden;   Para lo que sobre pase el margen de dad se esconda y no aparezca*/
+}
+
+.son{
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    text-align: center;
+    font-size: 3em;
+    line-height:var(--size);     /*Para que se alinie al centro*/
+    position: absolute;
+    opacity: .8;
+}
+
+.son:first-child{
+    background: hsl(300, 100%, 50%);
+    z-index: var(--z-back);
+}
+
+.son:nth-child(2){
+    background: hsl(180, 100%, 50%);
+    top: 75px;
+    left: 75px;
+    z-index: var(--z-tooltrip);     /*Para que aparezca 10 veces encima de otras cosas*/
+}
+
+.son:last-child{
+    background: hsl(100, 100%, 50%);
+    top: 150px;
+    left: 150px;
+    /*z-index: 9;*/
+}
