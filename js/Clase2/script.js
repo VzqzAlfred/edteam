@@ -50,8 +50,8 @@
         // /=
         // *=
     // COMPARACIÓN 
-        // ==               // ES MEJOR EVITAR ESTA Y USAR LA DE TRIPLE
-        // ===              // ESTA ES MEJOR COMPARANDO A NIVEL DE DATO MÀS ESTRICTO
+        // ==               // ES PARA IGUALAR: ESTA Y USAR LA DE TRIPLE
+        // ===              // ES COMPACIO: ES MEJOR PORQUE COMPARA A NIVEL DE DATO MÀS ESTRICTO
         // !=  ó  !==
         // >
         // <
@@ -62,3 +62,56 @@
             >> True     porque es por orden alfabético
             
         */
+
+//              OPERADORES UNARIOS
+    // %    ->   Es el resto, por ejemplo
+    //  5 % 3       Da igual a '2' porque cabe 3 y lo que sobra es 2 
+    
+    
+    // ++
+    
+    /*  x = 5   postincremento
+        x++
+        >> 5
+        x
+        >> 6
+
+
+                preincremento
+        y=10
+        ++y
+        >> 11
+    
+        Para el -- funviona igual    
+    */
+
+
+    // OPERADOR TERNARIO
+        // expresion ? si es verdadera ? falsa
+        // prompt es una ventana que aparece como pregunta guardandose en la variable que le colocas 
+        let age = prompt (`Tell me how old are you?`)
+        
+        // Comparando si es mayor de edad
+        let isAdult = age >= 18
+                        ? `You're Adult my fiend.`
+                        : `You're a kid, sorry with ${age} years`
+        alert(isAdult) 
+
+
+
+        // OPERADOR DE CORTO CIRCUITO   (||   &&)
+        
+        // Permite asignar uno u otro valor
+        /*
+            let a
+            let b = a || 'Juan'
+            b 
+            >> 'Juan'
+
+
+            let c = null || 25
+            c
+            >> 25 
+
+            // El && hace lo contrario 
+        */ 
