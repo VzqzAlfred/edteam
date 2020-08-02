@@ -93,7 +93,7 @@
         
         // Comparando si es mayor de edad
         let isAdult = age >= 18
-                        ? `You're Adult my fiend.`
+                        ? `You're Adult my friend.`
                         : `You're a kid, sorry with ${age} years`
         alert(isAdult) 
 
