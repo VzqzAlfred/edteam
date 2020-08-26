@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    color: rosybrown;
+}
+
+.div{
+    font-size: 3em;
+    color: sandybrown;
+}
