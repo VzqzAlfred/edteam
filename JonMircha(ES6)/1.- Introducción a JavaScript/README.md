@@ -1,8 +1,10 @@
-### Links Resources ###
+### Links & Resources ###
 
 1. Introducción a JavScript: https://jonmircha.com/javascript
 
 2. ¿Qué es ECMAScript?: https://jonmircha.com/ecmascript
+
+3. Documentación; propiedades y métodos: https://developer.mozilla.org/es/
 
 
 
