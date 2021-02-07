@@ -7,7 +7,6 @@ while(contador <= 10){
     contador++;
 }
 
-
 // do - while
 /* do {
     console.log("do - while: "+contador);
