@@ -1,4 +1,4 @@
-            /* Operador de Cortocircuito. */
+            /* Operadores de Cortocircuito. */
 
 /*
     Cortocircuito OR: Cuando el valor de la izquierda en la expresión siempre pueda validar a true, es el valor que se encargará por defecto.
