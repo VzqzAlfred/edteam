@@ -22,7 +22,7 @@ const vocalesConsonantes = (cadena = undefined) => {
                 consonantes.push(c[i]);
             }
         }
-        console.info(`En '${cadena}' hay ${vocales.length} vocales y ${consonantes.length} consonantes `);
+        console.info(`En '${cadena}' hay ${vocales.length} vocales y ${consonantes.length} consonantes 🤓`);
     }
 }    
 //vocalesConsonantes("Hola");
@@ -59,6 +59,8 @@ const emailValido = (correo) => {
         extension = /.com|.mx|gmail.com|hotmail.com|outlook.com/,
         busquedaArroba = expRegArroba.test(correo),
         busquedaExtension = extension.test(correo);
+
+    // Otra expresión regular para validar correos: /[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})/i
     
     if(busquedaArroba === true && busquedaExtension === true){
         console.info("Su correo ingresado es válido")
