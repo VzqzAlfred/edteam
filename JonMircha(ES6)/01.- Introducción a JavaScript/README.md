@@ -10,6 +10,11 @@
 
 
 
+### Artículos (Lecturas) ###
+1. Programación Asíncrona (JavaScript Asíncrono): https://jonmircha.com/javascript-asincrono
+
+
+
 ### Palabras reservadas en JavaScript ###
 
 * A: abstract 
@@ -28,4 +33,3 @@
 * T: this, throw, throws, transient, true, try, typeof
 * V: var, volatile, void
 * W: while, with
-
