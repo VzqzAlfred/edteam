@@ -1,6 +1,6 @@
             /* Symbols */
 
-// Sumbol(): Es un tipo de dato primitivo, se mantienen privados y se manejo interno. Nos permiten crear identificadores unicos 
+//! Sumbol(): Es un tipo de dato primitivo, se mantienen privados y se manejo interno. Nos permiten crear identificadores unicos 
 // * Symbol() va sin el *new*
 
 let id = Symbol("id"), 
@@ -29,14 +29,14 @@ console.log(persona[NOMBRE]);
 
 
 
-//Agregando otro simbolo al objeto
+// Agregando otro simbolo al objeto
 persona[SALUDAR] = function(){
     console.log("Hola");
 }
 
 
 
-// Accede a las propiedades pero no a los symbols porque son privados.
+// TODO: Accede a las propiedades pero no a los symbols porque son privados.
 console.log(persona);
 persona[SALUDAR]();
 
@@ -48,5 +48,5 @@ for (let propiedad in persona) {
 
 
 
-// Accediendo a los symbols, listandolos
+// TODO: Accediendo a los symbols, listandolos
 console.log(Object.getOwnPropertySymbols(persona));
