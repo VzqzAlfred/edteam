@@ -168,3 +168,15 @@ img{
     border-radius: 50%;
     background-color: var(--main-color);
 }
+
+.info{
+    display: inherit;
+    margin-top: 1rem;
+    font-size: 12.5px;
+}
+
+.info:hover{
+    cursor: alias;
+    transform: scale3d(1.5, 1.5, 1.5);
+    transition: transform 1.25s ease;
+}
