@@ -7,3 +7,7 @@
 
 
 * Menú Hamburger: https://jonsuh.com/hamburgers/
+
+
+
+* Loaders: https://samherbert.net/svg-loaders/
