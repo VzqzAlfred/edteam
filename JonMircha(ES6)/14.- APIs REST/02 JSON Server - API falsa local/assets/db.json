@@ -56,6 +56,11 @@
             "id": 6,
             "name": "Vision",
             "author": "Stan_Lee"
+        },
+        {
+            "id": 7,
+            "name": "Spider_Man",
+            "author": "Stan_Lee"
         }
     ]
 }
