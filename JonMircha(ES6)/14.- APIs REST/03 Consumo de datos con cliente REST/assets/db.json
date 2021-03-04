@@ -1,0 +1,66 @@
+{
+  "justiceleague": [
+    {
+      "id": 1,
+      "name": "Superman",
+      "author": "Snyder"
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "author": "Snyder"
+    },
+    {
+      "id": 3,
+      "name": "Mujer_Maravilla",
+      "author": "Snyder"
+    },
+    {
+      "id": 4,
+      "name": "Flash",
+      "author": "Snyder"
+    },
+    {
+      "id": 5,
+      "name": "Aqua_Man",
+      "author": "Snyder"
+    }
+  ],
+  "avenger": [
+    {
+      "id": 1,
+      "name": "Iron_Man",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 2,
+      "name": "Hulk",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 3,
+      "name": "Black_Window",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 4,
+      "name": "Thor",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 5,
+      "name": "Ant_Man",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 6,
+      "name": "Vision",
+      "author": "Stan_Lee"
+    },
+    {
+      "id": 7,
+      "name": "Spider_Man",
+      "author": "Stan_Lee"
+    }
+  ]
+}
