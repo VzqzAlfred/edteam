@@ -1,4 +1,4 @@
-            /* API REST: CRUD */
+            /* API REST: CRUD con Fetch */
 
 const d = document,
   $table = d.querySelector(".crud-table"),
