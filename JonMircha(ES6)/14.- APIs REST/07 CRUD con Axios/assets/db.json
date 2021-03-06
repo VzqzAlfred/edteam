@@ -1,0 +1,71 @@
+{
+  "justiceleague": [
+    {
+      "id": 1,
+      "name": "Superman",
+      "author": "Jerry Siegel"
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "author": "Bob Kane"
+    },
+    {
+      "id": 3,
+      "name": "Mujer_Maravilla",
+      "author": "William Moulton Marston"
+    },
+    {
+      "id": 4,
+      "name": "Flash",
+      "author": "Gardner Fox"
+    },
+    {
+      "id": 5,
+      "name": "Aquaman",
+      "author": "Mort Weisinger"
+    }
+  ],
+  "avenger": [
+    {
+      "name": "Iron Man",
+      "author": "Stan Lee, Larry Lieber",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Hulk",
+      "author": "Stan Lee, Jack Kirby"
+    },
+    {
+      "name": "Black Window",
+      "author": "Stan Lee, Jae Lee",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Thor",
+      "author": "Stan Lee, Jack Kirby"
+    },
+    {
+      "name": "Ant Man",
+      "author": "Stan Lee, Jhon Byrne",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Vision",
+      "author": "John Buscema"
+    },
+    {
+      "name": "Spider Man",
+      "author": "Stan Lee, Steve Ditko",
+      "id": 7
+    },
+    {
+      "name": "Blanck Panther",
+      "author": "Stan Lee & Larry Lieber",
+      "id": 9
+    }
+  ]
+}
