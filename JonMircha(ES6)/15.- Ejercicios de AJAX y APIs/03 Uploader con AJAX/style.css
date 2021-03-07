@@ -1,0 +1,20 @@
+html{
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100vh;
+}
