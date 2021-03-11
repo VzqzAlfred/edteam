@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #DDD;
+    font-size: 16px;
+    color: #214151;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.loader{
+    display: none;
+    margin: auto;
+}
+
+.song blockquote{
+    white-space: pre-wrap;
+}
+
+@media screen and (min-width: 800px){
+    main{
+        flex-direction: row;
+    }
+
+    main > * {
+        padding: 1rem;
+        flex-basis: 50%;
+    }
+}
