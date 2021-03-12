@@ -8,3 +8,5 @@
 # APIs
 
 * TVMAZE: https://www.tvmaze.com/api#show-search
+
+* Estados de México: https://api-sepomex.hckdrk.mx/documentacion/docs
