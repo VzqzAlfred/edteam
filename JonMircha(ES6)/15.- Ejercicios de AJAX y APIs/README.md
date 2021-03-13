@@ -24,3 +24,7 @@
 * Malvestida: https://malvestida.com/
 
 * Mientras tanto en México: https://www.mientrastantoenmexico.mx/
+
+* Lucy Lara: https://lucylara.com/
+
+* CSS Tricks: https://css-tricks.com/
