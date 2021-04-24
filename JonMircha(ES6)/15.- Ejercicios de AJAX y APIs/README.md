@@ -2,7 +2,7 @@
 
 
 
-2. ¿Cómo hacer Markdown? (Tipos): https://joedicastro.com/pages/markdown.html
+2. ¿Cómo hacer Markdown? (Tipos): https://joedicastro.com/pages/markdown.html  (En Desuso 😥)
 
 
 # APIs
