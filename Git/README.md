@@ -8,4 +8,4 @@
 ## Comandos
 
 1. `git help <nameCommand>`
-   > Enseña la documentación del comando en pedir ayuda.
+   > Enseña la documentación del comandoen especifico que colocamos.
