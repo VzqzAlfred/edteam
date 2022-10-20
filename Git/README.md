@@ -13,4 +13,8 @@
    > Enseña la documentación del comando en especifico que colocamos.
 
 2. `git config --global init.defaultBranch main`
+
    > Para reemplazar la rama master por main en Git
+
+3. `git log --oneline --graph --all` #Si se agrega > 'graph.txt' lo guarda y crea en ese archivo.
+   > Enseña el árbol que va teniendo los commits en el repositorio.

@@ -1,0 +1,356 @@
+* a3c4355 Agregando dos parrafos
+*   93b70cf Resolviendo conflicto en estaciones del año con fecha de inicio
+|\  
+| * a5cd004 Agregando estaciones del año
+* | 2e5efa7 Agregando estaciones del año con fecha de inicio
+|/  
+*   1cbb946 Resolviendo conflicto merge main/html en el documento index.html
+|\  
+| * a99c122 Agregando index.js al index.html
+* | 24e9f13 Agregando style al index.html
+* |   3d60f8e Merge branch 'js' into main
+|\ \  
+| * | c36a0c5 Creando index js
+* | | 58e5e90 Creando styles
+| |/  
+|/|   
+* | aa3d00b Creando archivo index.html
+|/  
+* 617f0c0 Ignorando archivos con gitignore
+* d97383a Creando licencia del repositorio
+* b0502b0 Adding files
+* d76a52c Adding README & gitignore
+*   3d9096f Merge branch 'master' of https://github.com/VzqzAlfred/edteam
+|\  
+| * 46b7103 Edited README
+* | 452653e Edited README
+|/  
+* 18dd964 Librería de Componentes
+* 2bc9e64 Componentes con Estado
+* 938cf2e Estado Inmutable
+* 67f3e03 Estado Reactivo
+* f0c4379 Interfaz de Usuario (UI) basada en el Estado
+* 0ab5e9f Manipulación NO Reactiva del DOM
+* 0e1147f Edited README
+* 32b1bfc Styled Components & Single File Components
+* 23d4889 Infinite Scroll & High Order Components
+* 859281f Vista de la Búsqueda Actual
+* da33041 Buscador Interno de la App
+* 1dfb8e9 Vista de Post Actual
+* b1f78cf Refactorización de la App: Enrutamiento Asíncrono
+* 304ad6d Enrutamiento (Router)
+* d4c6378 Renderizado Dinámico
+* bf78190 Componente Header
+* 72953ac Primeros Componentes de UI
+* 3e1aee2 Helper de peticiones AJAX
+* 6f2f703 Helper de conexión a API REST
+* c21f09d Estructura de Proyecto: assets, helpers y components
+* f4c4c30 Edited README
+* b89648f WordPress REST API & Infinite Scroll (Part 5)
+* 6768302 WordPress REST API y Fetch (Part 4)
+* 7ffc100 Edited README
+* 0b5efbf WordPress REST API y Fetch (Part 3)
+* 840db47 Edited README
+* dcc970f WordPress REST API y Fetch (Part 2)
+* 1322dbd WordPress REST API y Fetch (Part 1)
+* 26187d3 Edited README
+* 14b6768 Selects Anidados (Estados de México)
+* ae0ad1b Edited README
+* 02cf212 Buscador de Canciones con Fetch + Async
+* d9d6983 Buscador de Shows con Fetch y TVMAZE API
+* cc04725 Paginación de Pokémons con Fetch
+* 2f99538 Edited README
+* 7988273 Blog con Markdown y ShowdownJS
+* 6597dea Pagos Online con Fetch y Stripe (Part 3)
+* 4e9ae10 Pagos Online con Fetch y Stripe (Part 2)
+* 03b522b Pagos Online con Fetch y Stripe (Part 1)
+* e407047 Envío Formulario y CORS con Fetch y PHP
+* 9ed29ec Envío Formulario con Fetch y FormSubmit
+* 2d64e40 Uploader Drag & Drop con AJAX y PHP
+* 31bd700 Uploader AJAX con Barra de Progreso
+* b34fa4f Uploader con AJAX
+* 62adff6 Incluir archivos HTML (include-html.js)
+* c3e9cc1 Sitio web con AJAX
+* 3fa2ae6 CRUD con Axios
+* f9fcff9 CRUD con Fetch
+* c9ed185 CRUD con Fetch
+* 264c87d CRUD con AJAX
+* 2fb3ee9 API REST: CRUD
+* 20b5a94 Consumo de datos con cliente REST
+* 71e20cf JSON Server - API falsa local
+* 7763192 Edited README
+* 9d72b21 SON Server - API falsa local
+* 5ca4ad1 Edited README
+* c7e6411 Introducción API-REST
+* 6fe4a09 Edited README
+* a609e16 Librería Axios + Async-Await
+* ef0c4ef Librería Axios
+* 89dfb50 API Fetch + Async-Await
+* 3bbfc5b API Fetch
+* cb8256d Edited README
+* 9e9b37f Objeto XMLHttpRequest
+* 0d921e5 Edited README
+* 0ef0adc Introducción a AJAX
+* 78a8b3f Narrador (Lector de Voz)
+* 5959dfa Edited README
+* 9df5641 Envío de Formularios
+* 09c6483 Validación de Formularios con JavaScript
+* 38b6681 Edited README
+* 7902918 Validación de Formularios con HTML5
+* e720465 Video Inteligente (IntersectionObserver & VisibilityChange)
+* ab9a307 ScrollSpy con Intersection Observer
+* 33965db Responsive Slider
+* a2d7ef6 Sorteo Digital
+* 1116ae8 Filtros de Búsqueda
+* 1e83fe5 Filtros de Búsqueda
+* ecd0bb8 Detección de la Geolocalización
+* b274007 Detección de la WebCam
+* 2f3e967 Detección del estado de la red
+* 2c5a035 Detección de Dispositivos User Agent
+* bf8f389 BOM: Objetos: URL, Historial y Navegador
+* ada4719 Edited README
+* d039a78 Responsive Tester
+* 6bee69e Responsive con JavaScript
+* e2100aa API localStorage
+* 0cf9408 API localStorage
+* 3802b4f Tema Dark/Light
+* 7e7a7fe Botón de Scroll
+* 5705b05 Cuenta regresiva (countdown)
+* 1299e12 Eventos del Teclado (Movimientos y colisiones)
+* d3fec75 Eventos del Teclado (Movimientos y colisiones)
+* 8f32ab6 Eventos del Teclado (Movimientos y colisiones)
+* ae076ef Eventos del Teclado (Atajos)
+* 49cf7f5 Alarma Sonora
+* c9850a1 Reloj Digital
+* 96b3493 Menú de Hamburguesa
+* 95824aa Menú de Hamburguesa
+* 1e4cfdd BOM: Objetos: URL, Historial y Navegador
+* 05ad175 BOM: Métodos
+* 8ce7060 BOM: Propiedades y Eventos
+* 85994c8 Delegación de Eventos
+* 7c8dded stopPropagation & preventDefault
+* 88b6e29 Flujo de Eventos (Burbuja y Captura)
+* fd1d1d4 Eventos con Parámetros y Remover Eventos
+* ea32721 Manejadores de Eventos
+* 3c1c798 Modificando Elementos (Cool Style)
+* f6a3b15 Modificando Elementos (Old Style)
+* 96a376e Templates HTML
+* c011528 Creando Elementos y Fragmentos
+* 08b2d7b DOM Traversing: Recorriendo el DOM
+* b4a7407 Texto y HTML
+* 776126f Clases CSS
+* 07e03b4 Estilos y Variables CSS
+* 539f3b0 Estilos y Variables CSS
+* d0e189b Atributos y Data-Attributes
+* 2de37e1 Nodos, elementos y Selectores
+* cdb8cc9 Edited README
+* e3ab204 DOM: Document Object Model
+* 110c403 Web APIs
+* 2c0b3a2 JSON
+* 26eb5cb Added a .JSON
+* 1359450 Added a README
+* 0274f3e call, apply, bind
+* 21fc797 this
+* 57b7b4b Propiedades Dinámicas de los Objetos
+* 2da635c Proxies
+* 0c7e6df Generators
+* 11210e6 Iterables & Iterators
+* 660bdb2 WeakSets & WeakMaps
+* 044c7d6 Map
+* c1a9c3a Sets
+* 5a14fa4 Symbols
+* 2619b94 Symbols
+* 2520912 Async - Await
+* f126bf3 Promesas
+* e74a9c8 Callbacks
+* e5f7a90 Asincronía y el Event Loop
+* c19c411 Added README
+* 80dad73 Edited README
+* d83b4aa Edited README
+* 5bf0c90 Edited README
+* 1c593f9 Edited README
+* d12ea4e Temporizadores (setTimeout & setInterval)
+* b151742 Ejercicio 9
+* 09c04ba Ejercicios 8
+* 3e2ad7a Ejercicios 7
+* 0a8339a Ejercicios 6
+* 8cc08ff Ejercicios 6
+* 7a51a41 Ejercicios 5
+* a417a11 Ejercicios 4
+* eb93446 Ejercicio 3
+* 21b261d Ejercicios 2
+* 7d34bd5 Ejercicios 1
+* 72e21f9 Módulos (import & export)
+* 9bdf4c3 Funciones anónimas Autoejecutables
+* e5eea89 Expresiones Regulares
+* cd82de2 alert, confirm & prompt
+* 6c3ca12 Operadores de Cortocircuito
+* bb9591e Objeto Math
+* 051bdfd Objeto Date
+* 0aaa528 Objeto console
+* ef6b60e Métodos estáticos: getters & setters
+* 32a2a6c Clases y Herencia
+* 5ab1eb9 Herencia Prototípica
+* 7d7f229 Prototipos
+* 49061c8 Arrow Functions
+* 0064e91 Parámetros REST & Operador Spread
+* 092c77b Objetos literales
+* 7cb5f86 Destructuración
+* 1505772 Break & Continue
+* 721658b Manejo de Errores
+* 3bbed09 Ciclos (Loops)
+* b505ae7 Condicionales
+* 4c7d362 Tipos de Operadores
+* 92e043d Arreglos (Arrays)
+* cc0aea2 Funciones
+* c08b501 undefined, null & NaN
+* 220a2f9 Booleans
+* 2e57705 Números (Numbers)
+* aba04ab Plantillas de cadenas de texto (Template Strings)
+* 7ecb56c Cadenas de Texto (String)
+* ef0ba5f Constantes - const
+* 94b5d05 Objetos
+* 2fabea7 Variables - var vs let
+* 419b146 Variables - var vs let
+* 0107221 Objetos
+* f0ecd78 Arreglos (Arrays)
+* c89f141 Funciones
+* 7a154f1 undefined, null & NaN
+* b9a75ab Booleans
+* 043b408 Números (Numbers)
+* ed39812 Plantillas de cadenas de texto (Template Strings)
+* 9c8dab0 Cadenas de Texto (String)
+* 9634f54 Constantes - const
+* 7e16cd8 Variables - var vs let
+* 3996f57 Variables - var vs let
+* e70f193 Added a README
+* ce8c695 Edited README
+* 102e28d Funciones Anónimas Autoejecutables
+* dad6380 Expresiones Regulares
+* 5b5ee80 alert, confirm & prompt
+* 6b1c948 Operadores de Cortocircuito
+* c810580 Expresiones Regulares
+* 7f3f80f alert, confirm & prompt
+* 99a1d3f Operadores de Cortocircuito
+* d05ae35 Operadores de Cortocircuito
+* afe821e alert, confirm & prompt
+* 1085b70 Operador de Cortocircuito
+* ed222dc Objeto Math
+* 7478c2a Objeto Date()
+* 3af7f39 Objeto console
+* effeb1f Métodos estáticos: Getters & Setters
+* 1e8be5e Uso de Clases y Herencia
+* 10ee9cd Herencia Prototípica
+* b34b597 Prototipos (prototype)
+* 06ed843 Arrow Fuctions
+* 0cf147f Parámetros REST & Operador Spread
+* 72dde53 Objetos literales
+* d5c70bd Destructuración
+* 806769e Break & Continue
+* 809a74f Manejo de Errores
+* 5f8aefa Ciclos (Loops)
+* a0fbbeb Ciclos (Loops)
+* ed37578 Condicionales
+* 3283913 Tipos de Operadores
+* 78e7d04 Objetos
+* 722ec32 Arreglos (Arrays)
+* 81cc02c Funciones
+* 77f1964 Undefined, null & NaN
+* 9d4a1f2 Booleans
+* 8a6e123 Números (Numbers)
+* aa97ca4 Edited README
+* 87e8f1c Plantillas de cadenas de texto (Template Strings)
+* 5ccff29 Cadenas de Texto (String)
+* a2bbd83 Constantes - const
+* 5f9e635 Variables - var vs let
+* 3b2194d Variables - var vs let
+* 036c3d1 Added a README about the class
+* 5777121 Added a new README about the class
+* 4ccaa99 Edited README
+* 330c3fb Repaso utilizando HTML en JavaScript
+* b6a5e63 Clase 7: POO con JavaScript
+* cc31dd3 Clase 6: Objectos parte2
+* 50ee57b Clase 6: Objetos parte 1
+* a39e4c2 Clase 5: Arrays parte2
+* 1a7ba54 Clase 5: Arrays
+* dc4b8f8 Clase 5: Array
+* 5d8213e Clase 5: Arreglos
+* 842ee6e Clase 4: Tipos de funciones
+* f003910 Clase 4: Tipos de Funciones
+* 6892b29 Clase 4: Funciones uso y declaración
+* 2780788 Clase 4: Funciones
+* a41e2ae Clase 3: Uso de while y do while
+* cc86693 Clase 3: For, break and Continue
+* d5da96f Uso de For
+* 25d8bcc Uso de switch
+* 9c4e1b8 Clase 3: Switch
+* a809be4 Clase 3: Condicionales, truthy y falsy
+* cb22db7 Clase 3: Condicionales, truthy y falsy
+* 3a40319 Clase 3: Condicionales, truthy y falsy
+* ae82a5f Clase 2: Estilo en la presentaciòn
+* a1c6af1 Clase 2: Numeros y Strings
+* 450a053 Clase 2: Tipos de datos Operadores Parte 1
+* 00fc9c2 Clase 2: Tipos de datos Operadores Parte 1
+* 9ef5100 Clase 2: Tipos de datos Operadores Parte 1
+* 3da1ea4 Clase 2 (Tipos de datos)
+* 2ec2524 Clase 1 (Consola, variables y sintaxis)
+* 43c36d2 Clase 1 (Sintaxis, Uso consola y tipos variables)
+* 7c544e5 Clase 14 (Position: z-index I, II)
+* 0ecbe9d Class 14 (Position: z-index)
+* 968887a Class 14 (Position-sticky)
+* 7c37dc4 Class 14 (Position-sticky)
+* 4942c52 Clase 14 (position fixed)
+* a3eaf0c Clase 13 (Position 1)
+* b16f8d9 Clase 12 (Colors)
+* becec95 Clase 11 (Listas y contadores)
+* 4abbc7d Clase 10 Pseudoelementos
+* dcf41d8 Clase 9 (Pseudoclases)
+* 0ae7653 Clase 9 (Pseudoclases)
+* 84a5e66 Clase 8 (Textos parte 2)
+* a844ec6 Clase 7 (Textos parte 1)
+* 3f79a96 Clase 6 (backgrounds multiples y shorthand )
+* dd1176b Clase 6 (attachment <3)
+* 1f3d411 Clase 5 (Bordes y sombras)
+* 2035e6f Clase 4 (Modelo de cajas, margenes y padding)
+* 6b8467b Clase 4 (Modelo de cajas, margenes y padding)
+* 9d25c97 Clase 4 (Modelo de cajas, margin y paddinf)
+* a58508e Clase 4
+* 3e8d7e9 Clase3
+* b1aa52c Clase3
+* 43ffb95 Clase 4 (Box model)
+* c3f5113 Clase 3 (Especificidad, cascada y herencia)
+* 97440e4 Clase 2 (Selectores)
+* e835d5c Clase 1 de CSS
+* 0d965f5 Clase 9 (Contenido interactivo y embebido)
+* a0f985f Multimedia y audio (Clase8)
+* 9e22c14 Clase7 (Formularios)
+* 0f5ebb3 Clase7 (Formularios)
+* 0a0e36f Clase7 (Formularios)
+* cc2fd9f Clase 7 (FORMULARIOS)
+* 738ecbc Clase6 (Tablas)
+* 79aa496 Clase 6 (Tablas)
+* d97c056 clase 6 (tablas.)
+* 2dcf9ad Clase5 (microdatos)
+* 9d94067 Clase 5
+* aba453b Clase4 (Imagénes)
+* fb7a7c5 Clase4 (Imagénes)
+* 02243c9 Clase4 (Imagénes)
+* 9b2b4ce Clase 4 (Imagénes)
+* e3bb8f4 Clase 3: Capítulo 3 final
+* 57fd5eb Clase 3: Capítulo 3
+* db4ed7c Clase 3
+* 6268b17 Clase 3
+* 3b7eb94 Clase3
+* f120053 clase3
+* fd72988 Se cambio el nombre de la carpeta a la clase 2
+* 8c47dab Se cambio el nombre d ela carpeta
+* 2f7a9e4 Nuevas etiquetas para hacer listas
+* 8635ca7 se modifico doc
+* 3e3a804 se empieza la clase 2
+* cc29da9 Change index
+* 52559ca Class 1
+* 3a6528e Primera clase
+* b8fcbd9 Primera clase: muestra
+* a9968a6 Se agrego contenido
+* 4eb2aeb Bienvenida a EDTEAM
+* 53bb788 Initial commit
