@@ -1,4 +1,22 @@
 html{
      background: #000;
      color: #fff;
+     font-family: "sans-serif";
+     text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.margin-vertical{
+     margin: 35px 0;
+}
+
+a{
+     color: orange;
+}
+
+a:hover{
+     color: orangered;
 }
