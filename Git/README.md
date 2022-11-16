@@ -2,13 +2,13 @@
 
 ## Resources:
 
-1. _JonMIrcha's article:_ https://jonmircha.com/git
-2. _Documentation oficial GIT:_ https://git-scm.com/book/es/v2
-3. _Docs GitHub:_ https://docs.github.com/es
-4. _To practice:_ https://learngitbranching.js.org/?locale=es_ES
-5. _To make a git ignore:_ https://www.toptal.com/developers/gitignore/
-6. _A guide very simple:_ http://rogerdudler.github.io/git-guide/index.es.html
-7. _To reversion your projects:_ https://semver.org/
+1. [JonMIrcha's article](https://jonmircha.com/git)
+2. [Documentation oficial GIT](https://git-scm.com/book/es/v2)
+3. [Docs GitHub](https://docs.github.com/es)
+4. [To practice](https://learngitbranching.js.org/?locale=es_ES)
+5. [To make a git ignore](https://www.toptal.com/developers/gitignore/)
+6. [A guide very simple](http://rogerdudler.github.io/git-guide/index.es.html)
+7. [To reversion your projects](https://semver.org/)
 
 ## Comandos
 
