@@ -4,7 +4,7 @@ Curso de básico de HTML, CSS y básico en JavaScript
 
 ### JavaScript
 
-**Referencias: **
+**Referencias:**
 
 - [Lista de reproducción](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA)
 
