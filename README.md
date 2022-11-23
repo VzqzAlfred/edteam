@@ -1,8 +1,6 @@
-### Cursos en EDteam de: HTML, CSS & JavaScript(ES6)
+# Courses to Front End: HTML, CSS, JavaScript(ES6) & more
 
-Curso de básico de HTML, CSS y básico en JavaScript
-
-### JavaScript
+## JavaScript
 
 **Referencias:**
 
